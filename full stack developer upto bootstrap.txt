@@ -1,0 +1,929 @@
+date :27-april-2020:
+
+Python and Django Full Stack Web Developer Bootcamp
+
+Front end technologies= html,css, bootstrap,  javascript and dom, jquery 
+Back end technologies = python, django, sql,and  website clones
+installations and overview
+
+overview and topics of python and django full stack web developer 
+
+1.course introduction = complete
+2.front end introduction = complete
+3.html level one basics = complete
+4.html level two advanced 
+5.css level one basics
+6.css level two advanced
+7.capstone project one
+8.bootstrap overview
+9.javascript level one basics
+10.javascript level two
+11.document object model
+12.jquery
+13.back end introduction
+14.python level one
+15.python level two
+16.django level one basics
+17.django level two
+18.django level three
+19.django level four
+20.django level five
+21.django deployment
+22.advanced topics-cbvs
+23.first clone project
+24.social media site clone
+25.advanced topics lecture-debug toolbar
+26.advanced topics-customizing the django admin
+27.bonus section 
+
+section 2:front end introduction:
+internet service provider.
+full stack 
+front end and back end.
+javascript=to write the logic .
+
+python is a great language to learn , its simple, powerful and has many libraries.
+django is the most powerful framework for python , its fast secure and scalable.
+sqlite comes with django and python making it an easy choice.
+
+section 3:html level one basics:
+
+7.html level one introduction:
+html = hyper text markup language
+it is our first fundamental step in understanding how to build web applications.
+later on we will learn other technologies such as css to style the html and javascript to add functionality.
+
+html basics, tagging,lists divs and spans , attributes .
+
+8.html part one basics:
+explain the tags like html title body
+and go with the path to get the output
+
+9.html level one -part two basic tagging:
+refer w3schools
+
+h1 tags paragraph tags bold and italic tags
+em =enthasis tag no change like italic
+
+10.html level one -part three -lists
+
+ordered list
+unordered list
+
+lists 
+ordered list = 1 2 3
+unordered list = bullet points
+<li> = nested list
+
+11.html level one -part four divs and spans
+
+divs =division
+spans=inline container
+these two are tagging for css.
+
+12.html level one part five - attributes
+
+html attributes:
+image tag
+
+a=anchor tag to pass the another file tag.
+<a href=newpage.html>click me </a>
+
+13.html level one assesment overview:
+
+
+14.html level one assesment solutions:
+anchor tag also gives for the particular link.
+added the anchor tag and python image.
+just display the header part and anchor tag with python image and sub paragraphs.
+
+date:28-april-2020
+section 4:
+
+nothing done today
+
+30-april-2020
+section 4 - html level two advanced
+
+15.html level two introduction:
+ntng shows like next part css
+
+16.html level two part one-tables:
+
+<table>
+<thead>
+   <th>
+<tr>
+   <td>
+<th> page</th>t=table 
+<td>1233</td> d=distance
+
+<table border=1>
+<thead>
+<th>number</th>
+<th>color</th>
+<th>country</th>
+</thead>
+<tr>
+  <td>250</td>
+  <td>red</td>
+  <td>usa</td>
+</tr>
+</table>
+
+expalins the table creation
+
+17.html level two - part two tables quiz
+
+shows sample examples how to do table creation:
+example:country name country flag country gdp
+
+18.html level two -part three table quiz solutions
+
+shows the output of table creation
+
+19.html level two part four - forms basics
+
+<html>
+  <head>
+    <meta charset ="utf-8">
+<title></title>
+</head>
+<body>
+   <form>
+     <h1>login</h1>
+     <h2>please input your email and password</h2>
+<input type="email" name="useremail" value="email here">
+<input type="password" name="password" value=""  >
+<input type="submit" name="" value="click me">
+</form>
+</body>
+</html>
+
+<form>
+<h1>choose color</h1>
+<h2>click on button</h2>
+<input type="color" name="" value="">
+
+<form class="" action="index.html" method="post">
+
+20..html level two part five - forms and labels
+
+actions and labels
+
+<html>
+  <head>
+    <meta charset ="utf-8">
+<title></title>
+</head>
+<body>
+   <form>
+     <p>lenter email</p>
+     
+<input type="email" name="useremail" value="">
+
+<input type="submit" name="" value="click me">
+</form>
+</body>
+</html>
+
+
+<html>
+  <head>
+    <meta charset ="utf-8">
+<title></title>
+</head>
+<body>
+   <form action=https://www.facebook.com method=get>
+<p>enter text and take me to fb:</p>
+
+<input type="text" name="userinput" value="">
+
+<input type="submit" name="" value="click me">
+</form>
+</body>
+</html>
+
+date:01-05-2020
+
+continue with html level two part five forms and labels
+
+<html>
+  <head>
+    <meta charset ="utf-8">
+<title></title>
+</head>
+<body>
+   <form>
+<label>
+Enter Text:
+
+<input type="text" name="value" value="block one">
+</label>
+<label>
+Enter Text:
+
+<input type="text" name="value" value="block two">
+</label>
+<input type="submit" name="" value="click me">
+</form>
+</body>
+</html>
+
+
+<label for=userinput>enter input:</label>
+<input id=userinput type=text name=  placeholder=hello required>
+
+
+<input  type="text" name=""  placeholder="not required">
+<input  type="text" name=""  placeholder="required">
+<input  type="submit" name=""  value="submit">
+
+21.html level two -part six forms and selections 
+
+radio button, drop down buttons
+
+<body>
+<h1>feedback form</h1>
+<form method=get>
+<h3>are you from inside the us or outside the us>
+
+<label for=inusa>inside: </label>
+<input id=inusa type=radio name=loc value= >
+
+<label for=outusa>inside: </label>
+<input id=outusa type=radio name=loc value= >
+
+<h2>how was your service</h2>
+
+<select name=stars>
+  <option value=great>3</option>
+  <option value=okay>3</option>
+<option value=bad>3</option>
+</select>
+
+<h2></h2>
+<textarea name="mytext" rows="8" cols="80"></textarea> 
+<input type="submit" name="" value="submit" >
+
+
+22.html level two assessment:
+
+show the assesmet content is the like registraion fill like course details.
+
+23.html level two assessment solutions:
+
+
+<html>
+  <head>
+    <meta charset ="utf-8">
+<title>course sign up</title>
+</head>
+<body>
+<h1>course sign up page</h1>
+<p>please note:all text fields required</p>
+   <form action="thank you.html method=get>
+     <label for="fn">first name:<.label>
+<input id="fn" type=text name="" placeholder="first name" required>
+
+<label for="ln">last name:</label>
+<input id="ln" type=text name="" placeholder="last name" required>
+
+<p></p>
+<label for="mail">email:</label>
+<input id="mail" type="email" name="" placeholder="user@gmail.com" required>
+
+<label for="pass">password:</label>
+<input type="password"  name="" value="" required>
+
+<p>are you over 18</p>
+<label for="y">yes:</label>
+<input id="y" type="radio" name="over" value="yes">
+
+<label for="n">no:</label>
+<input type="radio"  name="over" value="no">
+
+<p>do you have a card or paypal</p>
+
+<select name="payment">
+<option value="cc">credit card</option>
+<option value="pp">paypal</option>
+</select>
+<p></p>
+
+<input type="submit" name=""  value="signup!">
+</form>
+</body>
+</html>
+
+
+24.css level one intro:
+
+css stands for cascading style sheets.
+css describes how html elements are displayed on a page.
+
+color fontsize borders we have to link the css part in html file.
+
+25.css level one part one:
+
+<title>css basics</title>
+
+</head>
+<body>
+<p>lets see a list:</p>
+<ol>
+<li>item one></li>
+<li>item two></li>
+<li>item three></li>
+</ol>
+
+</body>
+</html>
+
+master.css
+
+selected tag{
+property value;
+}
+
+h1{
+color:blue;
+}
+
+li{
+color:green;rgb color model
+}
+
+color:rgb(8,84,1);
+p{
+color:#0895a8;
+}
+h4{
+color:rgba()
+}
+
+
+may-02-2020
+26.css level one part two
+
+div is to create a container.
+master.css
+body{
+background-color:gray;
+}
+div{
+background-color:blue;
+border-color:blue;
+border-width:thick or 100px;
+border-style:dotted or double;
+
+}
+p{
+color:yellow;
+}
+
+span{
+background:red;
+color:black;
+}
+background:url(image path)
+background-repeat:repeat;
+
+27.quick note about next lecture:
+
+ntng shows 
+
+28.css level one part three:
+
+html elements by their tags.
+
+we can use ids to target single elements.
+
+<link rel=stylesheet href=master.css>
+
+<p id=singledoubt> ids must be unique</p>
+
+
+<ul>
+
+<li>confirm <input type=checkbox name=  value=  ></li>
+
+
+css
+
+div{
+color:red;
+}
+class starts with dot
+.{
+}
+
+.second div{
+color:red;
+}
+
+class uses #tag.
+
+#ingledout{
+color:green;
+text-decoration: line-through;
+}
+
+asteric:
+*{
+color:black;
+}
+
+css selector reference =w3 schools for reference.
+
+h3+ul{
+border:4px dotted purple;
+}
+
+anchor tag inside a list:
+
+li a{
+color:red;
+}
+
+list with anchor list with href:
+li a[href=www.npr.org]{
+color:blue;
+}
+
+class selectors id selectors and focus on dot classes.
+
+29.class level one part four:
+
+it shows inspect the page
+select the element and inspect.
+
+30.css level one part five:
+
+specificity=hierarchy of css styling
+<body>
+<h4>specificity</h4>
+
+<ul>
+<li class=topitems>first</li>
+<li id=two class=topitems>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+
+</body>
+
+
+css:
+li{
+color:red;
+}
+
+.topitems{
+color:blue;
+}
+
+#two{
+border:3px solid black;
+}
+#=id
+
+css specifity = google it.
+
+31.class level one assessment:
+
+css_level_one_assessment_css
+css_level_one_assessment_html
+css_level_one_assessment_css
+
+32.css level one assessment solutions:
+
+body{
+background-color:#a86f;
+}
+h2{
+color:purple;
+}
+
+input{
+border:2px solid rgb(0144,0,0)
+}
+
+div p{
+background:#fffca5;
+}
+
+
+#textblock{
+border:5px solid grey;
+width:800px;
+height:400px;
+}
+
+a{
+color:red;
+}
+
+#itemone{
+text-decoration:overline;
+color:purple;
+}
+.exit{
+background-color-blue;
+border:4px dashed yellow;
+}
+
+a:visted{
+color:blue;
+}
+
+03-may-2020
+
+33.css level two introduction:
+ntng shows
+
+34.css level two -part one fonts:
+
+learn properties with css
+we may need to provide the font size.
+os support for certain fonts
+downloading fonts
+
+<link rel=stylesheet href=
+
+h1{
+font-family:cursive or arial or cursive;
+}
+
+p{
+font-family: monospace;
+}
+
+body{
+font-size: 10px;
+}
+
+/*lem=16px
+2em=32px*/ =it will not work for this command.
+
+#two{
+font-size:2.0em;
+}
+
+p{
+font-style:italic;
+font-weight:bold;
+}
+
+h1{
+text-align:center;
+}
+
+35.css level two - part one (fonts) continued:
+
+custom web fonts
+
+we can download the google fonts for styling css part.
+
+in google font we have to copy the font link and after that add in html file.
+open source fonts =font website.
+font-weight:normal;
+font-size:normal;
+
+36.css level two -part two box model:
+
+the basic box model look like this.
+margin
+border
+padding
+content
+
+<body>
+
+<h1 id=top >top</h1>
+<h1 id=bottom >bottom</h1>
+
+
+#top{
+border:4px solid blue; 
+width:25%;
+text-align:center;
+/*top,right,bottom,left*/
+margin: 10px 20px 100px 400px;
+margin:auto;
+}
+
+#bottom{
+border:4px solid red; 
+width:50%;
+padding:200px;
+text-align:center;
+}
+
+
+37.css level two spectrum project overview:
+
+create differnt tables with colors.
+
+you will be creating your own small webpage.
+
+coolors.co for coloring scheme generator.
+
+
+
+38.css levl two spectrum project solutions:
+
+<link rel=stylesheet href=project.css>
+
+<body>
+<h1>my project</h1>
+
+<table class=art>
+<tr>
+<td id=one ></td>
+<td id=two ></td>
+<td id=three ></td>
+<td id=four ></td>
+<td id=five></td>
+</tr>
+</table>
+</body>
+
+css
+
+h1{
+text-align:center;
+}
+.art{
+margin:auto;
+}
+
+td{
+
+height:300px;
+width:150px;
+border:6px solid white;
+}
+
+#one{
+background-color:#dad208;
+}
+like these for 5 rows. copy the color code.
+individual cell we call id.
+
+section 7:capstone project one
+
+39.capstone project one overview:
+
+intro of the project create for sign up some website.
+
+40.capstone project one solutions:
+
+one html page
+css
+thanks page
+
+project .html:
+
+<body>
+<h1> welcome to the landing page</h1>
+<p>this is my page</p>
+
+
+<h2>sign up for our launch!</h2>
+
+<form class=emailform action=thankyou.html method=get>
+<label for=first>first name:</label><br>
+<input type=text name=first value= ><br>
+
+<label for=last>first name:</label><br>
+<input type=text name=first value= ><br>
+
+<label for=email>first name:</label><br>
+<input type=text name=first value= ><br>
+
+<input id=sub type=text name=submit= ><br>
+</form>
+
+
+set up the thank you.html
+
+css
+
+41.capstone project one solutions(continued)
+
+css part:
+
+body{
+font-family:sansita, sans-serif;
+background-color:#fff;
+color:#fdfffc;
+text-align:center;
+border:40px solid #2;fc486;
+border-top:0px;
+margin:0px;
+}
+
+p{
+padding-top:5%;
+padding-left:20%;
+padding-right:20%;
+
+}
+
+form{
+font-size:1.5em;
+margin-bottom:10p;
+
+}
+
+#sub{
+background-color:#ff9f1c;
+height:80px;
+width:150px;
+margin:4px;
+margin-top:12px;
+font-size:1.5em;
+border-radius:25px;
+}
+ 
+04-may-2020:
+42.bootstrap introduction: 
+
+framework:
+1.inversion of control 
+2.default behaviour
+3.extensibility
+4.non-modifiable framework code
+
+ability ro reference the bootstrap documentation.
+
+some differences:
+1.panels are being replaced by cards
+2.larger default font sizes
+3.new grid tier(xl)
+4.use of flexbox
+5.moved from less to sass
+
+shows the bootstrap documentation.
+
+43.bootstrap part one -buttons
+
+get bootstrap.com -download bootstrap link to our computer.
+
+bootstrap cdn
+basic template
+
+bootstrap.com/css
+
+buttons:
+
+<button type=button name=button>click</button>
+options for button classes.
+
+sizes for buttons.
+not clickable is disabled.
+
+jumbotron component.
+
+everything we will refer in document.
+
+44.bootstrap part two forms:
+<div class=container.
+
+just past it the <form> code from bootstrap.
+
+<div class=form-group>
+<select multipe class=form-control id=exampleselect1>
+
+<textarea class=>
+
+bootstrap is to reference the document.
+
+45.bootstrap part three navbars:
+
+navbar is top of the website.
+create the basics of a navbar.
+connect an html page to javascript and jquery.
+
+component page click on nav-bar.
+
+<nav class=navbar navbar-default>
+<div clas=navbar-header>
+<a href= class=navbar-brand>company</a>
+
+<ul class=nav navbar-nav>
+
+<li><a href=#>item one</a></li>
+<li><a href=#>item two</a></li>
+
+</ul>
+<ul class=nav navbar-nav navbar-right>
+
+jumbotron is like fontstyle.
+inverse navbar to show black color.
+toogle navigation
+
+<span class=sr-only>toggle navigation</span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+to show the toggle navigation three lines.
+
+for dropdown to use the jquery.
+
+46.bootstrap part four grids:
+
+inside of a row class for inserting the rows and columns.
+
+col-md-6
+in html file.
+<style>
+.boxy{
+background:#fff;
+border:2px solid black;
+}
+</style>
+
+<div class=container>
+<div class=row>
+<div class=col-lg-4 boxy>col large 4</div> -for display the boxes.
+col-xs-6 boxy 
+
+4 is nothing but creating units
+col-lg-3 boxy
+col-sm-6 boxy
+
+refer the document layout
+bootstrap grid examples.
+bootstrap.com/grids
+
+</--  --> for not run the code.
+
+47.bootstrap project
+
+creating sign in page.
+explain the coffee lover project
+
+48.bootstrap project solutions:
+
+create jumbotron
+add content and add images, navbar and go to sign in page.
+
+navbar
+
+<nav class=navbar navbar-inverse>
+<ul class=nav navbar-nav>
+<li><a href=new_signup.html>sign in</a></li>
+</ul>
+</nav>
+
+<div class=container>
+<div class=jumbotron>
+<h1>coffee lover project</h1>
+<p>   </p>
+
+</div>
+</div>
+
+<div class=container>   thumbnails see in bootstrap document
+<h2>pictures of coffee></h2>
+<div class=row>
+
+<div class=col-lg-4 col-xs-6  thumbnail><img src=image link  alt=></div>
+
+<div class=container>
+<div class=jumbotron>
+<h1>login</h1>
+<p>enter your email and password</p>
+</div>
+</div>
+<div class=container>
+
+<form class=form-group>
+<label for=userem>email</label>
+<input type=email class=form-control name=username>
+
+<label for=userpass>email</label>
+<input type=password class=form-control name=username>
+
+<div class=checkbox>
+
+<label for=usercheck>
+<input type=checkbox class=usercheck value= >
+
+keep me logged in</label>
+
+
+</div>
+
+<button type=submit class=btn btn-default  name=button>submit</button>
+</form>
+
+
+
+
+
+
+ 
+

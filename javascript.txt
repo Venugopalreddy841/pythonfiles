@@ -1,0 +1,594 @@
+
+may-05-2020:
+section 9:javascript level one basics:
+49.js level one introduction
+ntng done on may 5th 
+
+may-06-2020:
+
+section 9:javascript level one basics:
+49.js level one introduction
+
+
+this will beign to build our understanding of adding interactive functionality to our websites.
+javascript supports arrays loops.
+to begin with javascript basics.
+
+50.js level one part one basics:
+
+few basic datatypes and methods.
+
+basic datatypes:
+1.numbers ,float ,strings
+run the code in console (inspect).
+
+in javascript code:
+django.length 
+output=6.
+x.x.length
+output=3.
+
+indexing starts at zero.
+
+variables:
+// var variable= value;
+undefined
+
+var bankAccount =100;
+undefined
+bankAccount
+output=100
+var deposit=50
+
+var total=bankAccount + deposit
+total
+output=150.
+
+var greeting=welcome back:  ;
+undefined
+var name=ramya
+undefined
+alert(greeting+name);
+
+undefined means nothing to never possible.
+
+alert(hey!)
+console.log(hey i am venu);
+prompt(enter my name)
+
+51.js level one part two connecting js:
+
+
+in html we add this
+venu.html
+<title></title>
+
+<script src="myscript.js"></script>
+
+
+myscript.js:
+alert("welcome to our bank")
+var deposit= prompt("how much would you like to deposit")
+alert("you 've deposited: "+deposit)
+console.log("you are a cool person!")
+
+52.js level one part three exercise:
+
+html file connected to .js file.
+
+venu.html
+<ul>
+<li></li>
+</ul>
+
+js file:
+<script src="myscript.js"></script>
+
+explain basic example like above.
+
+53.js level one -part three solutions:
+
+In js file:
+var lbs=prompt("weight in lbs")
+var kg = lbs*0.454
+alert(that is: "+kg+" kilograms);
+console.log("conversion complete!");
+
+54.js level one -part four operators
+
+we have to learn about comparsion and logical operators with javascript.
+These operators allow us to begin to add logic to our javascript code.
+
+comparator operators=true and false.
+
+examples:
+3>2=true
+2>3=false
+
+2==2 output=true
+
+user == user  output=true
+
+5 !=5
+true
+
+true==1;
+true
+
+true === 1;
+false
+
+false==0
+true
+
+false===0
+false
+
+null == undefined
+true
+
+
+null === undefined
+false
+
+
+logical operators:
+it combines multiple operators.
+
+1 === 1 && 2===2
+true
+
+1 === 1 && 2===2 1===2
+false
+
+1=== 2 // 1 ===1
+true
+
+//not undefined
+
+(1===1)
+true
+
+!(1===1)
+false
+
+!!(1===1)
+true
+
+!!!!!(1===1)
+false
+
+example 1 start:
+var x=1
+var y=2
+
+"2" == y && x== 1; output = true
+end
+we can a compare two objects.
+
+
+55.js level one partfive - control flow:
+
+control flow is a fundamental aspect of any full programming language.
+It allows us to execute code if a certain situation arises.
+We use it in combination with logical and comparison operators.
+
+main concepts:
+
+if
+if else
+else if
+
+boolean- true or false.\
+
+if (condition){
+//execute some code
+}
+
+if elseif ,else = multiple conditions
+
+html file :
+
+<script src=script.js></script>
+
+js file:
+var hot= false
+var temp= 100
+
+if (temp>80){
+   console.log(i ran);
+}
+
+if (temp>80){
+   hot=true
+}
+
+console.log(hot);
+
+
+example-2:
+var hot= false
+var temp= 50
+
+if (temp>80){
+   console.log(hot outside);
+}
+else{
+console.log(its not very hot today);
+}
+
+example-3
+var hot = false
+var temp = 50
+
+if (temp>80){
+   console.log(hot outside);
+}
+else if  (temp <=80 && temp >=50){
+console.log(average temp outside);
+}else if (temp < 50 && temp >= 32){
+ console.log(its pretty cold out);
+}else {
+ console.log(it is very cold out);
+}
+
+output:average temp outside
+
+example-4
+
+var ham = 10;
+var cheese =10;
+
+var report=blank;
+
+if (ham >=10 && cheese >=10 ){
+report = strong sales of both ham and cheese!
+} else if (ham ==0 && cheese ===0){
+report = nothing sold
+}else{
+report= we had some sales of items
+}
+console.log(report);
+
+56.js level one - part six while loops:
+
+Loops allow us to automatically repeat blocks of code.
+The while loop will continually execute code as long as a condition remains true.
+
+while (condition){
+// execute some code while
+// this condition is true
+}
+
+
+in js file:
+example -1:
+
+var x=0;
+while(x<5){
+console.log("x is currently: "+x);
+console.log("x is still less than 5, adding 1 to x");
+
+x=x+1;
+}
+
+example -2:
+
+var x=0;
+
+while(x<5) {
+console.log("x is currently: "+x);
+
+   if(x==3) {
+console.log("x is equal to three!");
+break;
+}
+
+console.log("x is still less than 5, adding 1 to x");
+
+x=x+1;
+}
+
+
+var num =1;
+
+while (num < 11) {
+ if (num % 2 ===0){
+console.log(num);
+}
+num =num+1;
+}
+
+intentaion is a huge aspect.
+
+date:may-07-2020
+
+57.js level one - part seven for loops:
+
+three types of for loops:
+for
+for/ln
+for/of
+
+num=num+1
+num+=1
+num++ these are same syntax will work.we can use these three.
+
+for(var i=0; i<5; i++ statement2){
+//execute some code
+}
+
+examples in editor:
+
+js.file:
+for(var i =0; i<5; i++){
+console.log(number is +i);
+}
+
+output:number is 0
+1
+2
+3
+4
+
+2.
+var word =jhghdjerf
+
+for(var i=0; i<word.length;i++){
+console.log(word[i]);
+}
+
+58.js level one eight loop exercies:
+just explain what is going on next session.
+
+59.js level one part eight solutions:
+
+js file:
+var x=0;
+while(x<5){
+console.log(hello);
+}
+
+for (var i=0;i<5;i++){
+console.log(hello with for loop);
+}
+var num=1;
+while (num<25){
+if (num%2 !==0){
+console.log(num);
+}
+num++
+}
+
+for (var i=0;i<5;i++){
+if (i%2 !==0){
+console.log(i);
+
+}
+}
+
+60.js level one -project overview:
+
+create a simple website-spy present 
+explain the project
+enter the input details
+output in console shows welcome comrade.
+
+61.js level one -part nine project:
+
+js file:
+
+var firstname = prompt(first name please:)
+var lastname = prompt(first last please:)
+var age = prompt(how old are you)
+var height = prompt(what is your height?)
+var petname = prompt(what is your pet name?)
+alert(thank you so much for the information!)
+
+//logic
+
+//four conditions
+var namecond = null;
+var agecond = null;
+var heightcond = null;
+var petcond = null;
+
+//name condition
+if (firstname[0] === lastname[0]){
+namcond=true;
+}
+else{
+namecond = false;
+}
+
+//age condition
+
+if (age > 20 && age <30){
+  agecond = true;
+}
+else{
+agecond = false;
+}
+
+//height condition
+
+if (height >170){
+heightcond = true;
+}
+else{
+height cond = false;
+}
+
+//pet name
+
+if (petname [petname.length-1] === y) {
+petcond =true;
+}
+else{
+petcond =false;
+}
+
+//check all conditions
+if (namecond && age cond && heightcond && petcond ){
+console.log(welcome to spy!);
+}
+else{
+console.log(nothing to see here);
+}
+
+output:give the inpu details name pet name height 
+it shows nothing to see here
+
+section10:javascript level two
+
+62.js level two introduction:
+three main topics 
+functions-reuse the code
+arrays
+objects
+these three topics are more important for implementing the front end.
+
+63.js level two -part-one -functions:
+
+function will be our main building blocks.
+They will allow us to easily reuse the code more than once not constantly repeat ourselves.
+func name(parameter 1, parameter2){
+//code to be executed
+}
+
+jsfile:
+
+function hello(name){
+ console.log(hello world +name);
+}
+
+output :hello name
+
+function functionname() {
+
+1.function addnum(num1,num2){
+console.log(num1+num2);
+}
+
+we can concantae the two strings.
+
+add num("2",2)
+output:22
+
+2.function hellosomeone(name="ramya"){
+console.log("hello "+name);
+}
+
+3.function formal(name="sam",title='sir'){
+console.log(title +" " +name);
+}
+
+4.function formal(name="sam",title='sir'){
+//code
+.//code
+return title+ " " +name
+}
+output:sir sam
+
+5.function timesfive(numinput){
+var result = numinput *5
+return result
+}
+
+output:20
+pass the parameter 4 :4*5=20
+
+scope is  a describe the objects inside a function.
+
+//global scope - outside of the function
+
+var v = "venu"
+var stuff = "venu gopal"
+
+function fun(stuff) {
+console.log(v);
+stuff= "reassign stuff inside func" 
+console.log(stuff);
+}
+
+fun()
+
+output:venu 
+reassign stuff inside func
+
+64.js level two -part two function:
+
+.js files
+explain the commands.
+function strings times (str,n)
+
+65.js level two -part two function solution:
+
+js file:
+function sleepin(weekday, vacation){
+return(!weekday // vacation)
+}
+
+function monkeytrouble(asmile, bsmile){
+return(asmile && bsmile) //(!asmile && !bsmile) !=not
+}
+
+function stringtimes(str,n) {
+var returnstr="";
+var i=0;
+while (i<n) {
+returntr +=str
+i++
+}
+return returnstr
+} concante strings together
+
+function luckysum(a,b,c){
+if (a == 13){
+return 0
+}
+else if (b == 13){
+return a
+}
+else if (c==13){
+return a+b
+}
+else{
+return a+b+c
+}
+
+//here are some example inputs and outputs
+//
+
+//caught_speeding(60,false) =0
+//caught_speeding(65,false)=1
+//caught_speeding(65,true)=0
+
+function caught_speeding(speed, is_birthday){
+ if (is_birthday){
+speed -= 5
+}
+if (speed <= 60) {
+return 0
+}
+if (60 < speed <=80) {
+return 1
+}
+return 2
+}
+
+//if you cant figure this one out, dont worry, thats why itsa bonus!
+//
+// makebricks(3,1,8)=true
+//makebricks(3,1,9)=false
+//makebricks(3,2,10)=true
+
+function makebricks(small,big,goal){
+return goal%5 >= 0 && goal%5 - small <= 0 && small +5*big >= goal;-tricky
+}
+
+website coding back.com-refer this
+
+may-08-2020:
+
+66.js level two-part three arrays:
