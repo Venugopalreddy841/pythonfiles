@@ -1,0 +1,616 @@
+
+API:
+Keywords: API Management, API Architecture, Integration, API Description Languages, RAML, Swagger, API.
+
+OpenID Connect - End User Identity for Apps and APIs.
+
+ Instead, we focus on understanding OpenID Connect on a conceptual level, so we can design and architect apps that work with OpenID Connect. 
+And OpenID Connect is the standard behind creating smooth login and signup experiences, increasing the customer signup rate, and creating highly converting apps.
+APIs now need to provide concepts such as events, notifications, triggers, and subscriptions. 
+The REST architectural style does not natively support these concepts.
+
+Graph QL Api design:
+We first explore the concepts of the two GraphQL languages using examples. 
+Then we start writing some code for our first GraphQL API. 
+We develop this API step by step, from creating a schema and resolving queries, over mocking data and connecting data sources all the way to developing mutations and setting up event subscriptions.
+
+How the concept of api used:
+
+APIs are not called by end-users directly. Instead, APIs are called by
+apps, such as mobile apps, web apps or TV apps. The apps are then
+offered to end users. The complete solution, which uses APIs,
+typically consists of:
+• A client or app that calls the APIs and processes the data
+provided by the APIs. This client is responsible for the enduser experience.
+• A number of APIs that provide the data to the app.
+• An API platform that manages the apis.
+
+API Architecture:
+
+What most API design books focus on is the use of HTTP methods,
+URI design, HTTP status codes, HTTP headers and the structure of
+the resources in the HTTP body. However, this is actually the
+smallest challenge when building APIs. The real challenge is finding
+an API architecture and defining the methodology.
+
+
+
+
+1.Build a backend rest api with python & django:
+
+TDD-Test Driven Development.
+python uses in:
+scientific computing
+backends
+ai
+apis
+websites
+data analysis
+automation
+devops
+blockchain
+security
+scripts
+animation
+musical notation
+nlp
+
+TDD improves code quality,comprehension and confidence.
+IN API :uses the authentication, creating objects, filtering and uploading images and more uses in the test driven development..
+
+Create an advanced REST API with Python, Django REST Framework and Docker using Test Driven Development (TDD).
+
+we have to create for development use the python ,django rest framework and docker.
+
+Build a Backend rest api with python & django- (the main goal)
+
+2.Intro to the course:
+
+the end result:
+
+manage users:
+
+/api/user/create
+/api/user/token
+/api/user/me
+
+manage recipes:
+/api/recipe/tags
+/api/recipe/ingredients
+/api/recipe/recipe
+/api/recipe/recipe/<id>/
+/api/recipe/recipe/<id>/upload-images
+
+take example while doing the working hours of time project named as recipe:
+
+Recipe Api:
+title
+price
+cooking duration
+ingredients
+tags
+images
+
+main tasks:
+user authentication
+creating objects
+listing/filtering
+uploading images
+
+New:
+
+working rest api:
+
+Technologies:
+virtualbox
+git
+python
+django
+django rest framework
+atom
+vagrant
+
+categories:
+1.development server
+2.application code
+3.tools
+
+1.Development server:
+
+Running code on our local machine:
+
+-Difficult to work collaboratively.
+-Different software on windows,mac,etc.
+-Conflicts with other apps we use
+-Clogs up our system with dev tools
+-Different OS from the server
+
+vagrant-to reproduce the server with other developers. to run the particular machine code project.
+
+Running code in a virtual dev machine:
+-Easy to share the server with others.
+-Exact same version of all requirements.
+-Run exactly the same software as a real production server.
+-Easily create and destroy server as needed.
+git - to track the changes in the code.
+
+2.Application code:
+level 1 - python programming language-write the logic for our application.
+level 2 -django framework-web framework for python,predefined set of code  to perform common actions, and standardised applications.
+level 3-django rest framework-provides set of features for making standard rest apis.
+
+
+3.Tools:
+git-industry standard version control system
+atom-text editor made by git hub.
+easily modify http headers.
+
+what is docker?
+A.open source containerization tool
+run app in light -weight image
+docker set the containers and run it.
+docker install the all dependices and run the application.
+
+docker limitations-windows version
+vagrant-virtual box run virtual machine
+docker-streamline work flow
+
+youtube:
+
+RESTFULL API:
+It is the transalator between two machines like acts as a communication.
+server can receive the data from the application.
+apis communicate with multiple technologies.
+
+Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. 
+Its main purpose is to save the state of an object in order to be able to recreate it when needed. 
+The reverse process is called deserialization.
+
+Serializing Django objects. Django's serialization framework provides a mechanism for “translating” Django models into other formats. 
+Usually these other formats will be text-based and used for sending Django data over a wire, but it's possible for a serializer to handle any format (text-based or not).
+
+tomorrow i have to complete the video make a document and practice.(19-may-2020)
+
+Date:19-may-2020:
+
+Today started the concept of api django rest framework documentation basic overview in pycharm.
+
+Main topics in django rest framework:
+
+1.Django project setup
+2.introduction to serializer
+3.working with model serializer
+4.working with function based api
+5.introduction to api_view()decorator in function based api view
+6.working with class based api view
+7.working with generic views and mixins
+8.different type of authentication like session auth,basic auth and token auth
+9.introduction to viewsets and routers
+10.working with generic viewsets
+11.working with model viewsets
+
+What Are Restful APIs ?
+
+A RESTful API acts as a translator between two machines communicating over a Web service. If your familiar with the concept of API This is just like an API but it’s working on a RESTful Web service and the API is used by two applications trying to communicate with each other over a network or Internet.
+. Web developers program REST API that server can receive data from applications. These applications can be web-apps, Android/iOS apps, etc. RESTful APIs return JSON files which can be interpreted by a variety of devices.
+
+
+What is Django REST Framework?
+
+DRF is a framework built upon the Django Framework. And it is used for developing restful apis . 
+Some reasons you might want to use REST framework:
+• The Web browsable API is a huge usability win for your developers.
+• Authentication policies
+• Serialization that supports both ORM and non-ORM data sources.
+• Extensive documentation, and great community support.
+
+What Are Restful APIs ?
+
+A RESTful API acts as a translator between two machines communicating over a Web service. If your familiar with the concept of API This is just like an API but it’s working on a RESTful Web service and the API is used by two applications trying to communicate with each other over a network or Internet.
+. Web developers program REST API that server can receive data from applications. These applications can be web-apps, Android/iOS apps, etc. RESTful APIs return JSON files which can be interpreted by a variety of devices.
+
+
+What is Django REST Framework?
+
+DRF is a framework built upon the Django Framework. And it is used for developing restful apis . 
+Some reasons you might want to use REST framework:
+• The Web browsable API is a huge usability win for your developers.
+• Authentication policies
+• Serialization that supports both ORM and non-ORM data sources.
+• Extensive documentation, and great community support.
+orm-object relational mapping.
+
+1.Django project setup-complete
+in setup create the project ,app run migrate,create superuser.
+
+2.introduction to serializer
+
+build blocks,django rest api and serializer.
+models are tables for database.
+urls for view functions.
+apis communicate with multiple technologies.(json)
+
+models.py
+
+from django.db import models
+
+class Article(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.CharField(max_length=100)
+    email = models.EmailField(max_length=100)
+    date = models.DateTimeField(auto_now_add=True)
+
+
+    def __str__(self):
+        return self.title
+
+install -pip install djangorestframework
+
+run the -python manage.py makemigrations
+Migrations for 'api_basic':
+  api_basic\migrations\0001_initial.py
+    - Create model Article
+it will create the model article.
+run-python manage.py migrate
+
+admin.py
+
+from django.contrib import admin
+from .models import Article
+
+admin.site.register(Article)
+
+run the server -in admin shows the article model .
+
+cerate the serializers.py in api_basic =app
+
+serializers.py
+
+from rest_framework import serializers
+from .models import Article
+
+class ArticleSerializer(serializers.Serializer):
+    title = serializers.CharField(max_length=100)
+    author = serializers.CharField(max_length=100)
+    email = serializers.EmailField(max_length=100)
+    date = serializers.DateTimeField()
+
+
+    def create(self, validated_data):
+        return Article.objects.create(validated_data)
+
+    def update(self,instance, validated_data):
+        instance.title = validated_data.get('title', instance.title)
+        instance.author = validated_data.get('author', instance.author)
+        instance.email = validated_data.get('email', instance.email)
+        instance.date = validated_data.get('date', instance.date)
+        instance.save()
+        return instance
+
+after that in commandprompt
+
+cd pycharmprojects
+cd RestBasics
+cd MyProject
+run - python manage.py shell
+
+in python manage.py shell
+
+from api_basic.models import Article
+from api_basic.serializers import ArticleSerializer
+from rest_framework.renders import JSONRenderer
+from rest_framework.parsers import JSONParser
+
+a = Article(title = 'Article Title', author = 'Venugopalreddy156', email = 'venugopalreddybeereddy@gmail.com')
+a.save()
+//a = Article(title = 'Article Title', author = 'Venugopalreddy156', email = 'venugopalreddybeereddy@gmail.com')
+a.save()//
+serializer = ArticleSerializer(a)
+serializer.data-(it will display the data)
+
+//the data send into render json//
+
+content = JSONRenderer().render(serializer.data)
+type content -(it will display the json data )
+
+serializer = ArticleSerializer(Article.objects.all(), many=True)
+type serializer.data-(it will display the two times data)
+
+3.model serializer:
+
+remove the previous content in serializers.py
+
+add on new content:
+
+this time using model serializer.
+
+from rest_framework import serializers
+from .models import Article
+
+class ArticleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Article
+        fields = ['id', 'title','author']
+
+continue in shell:
+
+serializer = ArticleSerializer()
+
+print(repr(serializer))
+
+output:display the ArticleSerializer():
+         title = CharField(max_length=100)
+         author = CharField(max_length=100)
+         email = EmailField(max_length=100)
+         date = DateTimeField()
+
+4.Function Based API Views:
+
+explain the api views by using serializer.
+
+views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse, JSONResponse
+from rest_framework.parsers import JSONParser
+from .models import Article
+from .serializers import ArticleSerializer
+
+
+def article_list(request):
+
+    if request.method == 'GET':
+        articles = Article.objects.all()
+        serializer = ArticleSerializer(articles, many=True)
+        return JSONResponse(serializer.data, safe = False)
+
+     elif request.method == POST:
+         data = JSONParser().parse(request)
+         serializer = ArticleSerializer(data=data)
+ 
+     if serializer.is_valid():
+         serializer.save()
+         return JSONResponse(serializer.data, status=201)
+     return JSONResponse (serializer.errors,status=400)
+
+create urls.py in app.
+
+project -urls.py
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('api_basic.urls')),
+
+]
+
+app-urls.py
+
+from django.urls import path
+from .views import article_list
+
+
+urlpatterns = [
+    path('article/', article_list),  
+
+]
+
+at the 40 minutes of video showing error.
+
+while running the server not display the article and not showing the json format with ids.
+
+after that in postman take the url
+it shows the data should be correct it shows the status.
+in postman explain the put ,post and get for put the code(json format)
+
+finally the output should display in json format(explain the basic api call).
+
+continue with views.py(above code continutation)
+
+@csrf_exempt
+def article_detail(request, pk):
+    try:
+        article = Article.objects.get(pk=pk)
+
+    except Article.DoesNotExist:
+        return HttpResponse(status=404)
+
+    if request.method ==GET:
+         serializer = ArticleSerializer(article)
+         return JsonResponse(serializer.data)
+
+     elif request.method == PUT:
+         data = JSONParser().parse(request)
+         serializer = ArticleSerializer(article, data=data)
+         if serializer.is_valid():
+             serializer.save()
+             return JsonResponse(serializer.data)
+         return JsonResponse(serializer.errors, status=400)
+
+     elif request.method == DELETE:
+         article.delete()
+         return HttpResponse(status=204)
+
+
+app_basic urls.py:
+
+from django.urls import path
+from .views import article_list, article_detail
+
+
+urlpatterns = [
+    path('article/', article_list),
+    path('detail/<int:pk>/', article_detail),
+]
+
+go to detail in server:
+it will display in json format.
+
+in postman give url localhost:8000/detail2/
+
+give commands put and update the data.
+in body only we update the code.then click send it will display token like status 201 ok.
+
+5.api_view() decorator in function based api views:
+
+fucntion provide the simple decorators.
+it allows django http response.
+decorator allows  response.
+
+views.py continue:
+
+from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
+from rest_framework.parsers import JSONParser
+from .models import Article
+from .serializers import ArticleSerializer
+from django.views.decorators.csrf import csrf_exempt
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+@api_view([GET, POST])
+def article_list(request):
+
+    if request.method =='GET':
+        articles = Article.objects.all()
+        serializer = ArticleSerializer(articles, many=True)
+        return Response(serializer.data)
+
+    elif request.method == 'POST':
+        serializer = ArticleSerializer(data=request.data)
+
+    if serializer.is_valid():
+         serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view([GET,PUT,DELETE])
+def article_detail(request, pk):
+    try:
+        article = Article.objects.get(pk=pk)
+
+    except Article.DoesNotExist:
+        return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+    if request.method ==GET:
+         serializer = ArticleSerializer(article)
+         return Response(serializer.data)
+
+
+     elif request.method == PUT:
+        
+         serializer = ArticleSerializer(article, data=request.data)
+         if serializer.is_valid():
+             serializer.save()
+             return Response(serializer.data)
+         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+     elif request.method == DELETE:
+         article.delete()
+         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+run server:
+
+localhost:8000/article/
+
+display article list
+http 200 ok.
+
+in postman directly check with localhost:8000/
+
+after adding the 204_no content
+
+runserver:
+
+it display the article
+
+media type:applicationjson
+content over.
+
+
+in serializer specify the details
+
+to get the all fields in serializers.py = is fields = '__ll__'
+
+
+6.class based api views
+
+https://www.codeloop.org
+
+in views .py-creating a class
+
+from rest_framework.views import APIVIEW
+
+class ArticleAPIVIEW(APIVIEW):
+
+    def get(self, request):
+        articles = Article.objects.all()
+        serializer =ArtcleSerializer(articles,many=True)
+        return Response(serializer.data)
+
+    def post(self, request):
+        serializer = ArticleSerializer(data=request.data)
+
+    if serializer.is_valid():
+         serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class ArticleDetails(APIVIEW):
+  
+  def get_object(self,id):
+     try:
+         return Article.objects.get(id=id)
+
+    except Article.DoesNotExist:
+        return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+    def get(self, request, id):
+         article = self.get_object(id)
+         serializer = ArticleSerializer(article)
+         return Response(serializer.data)
+
+
+    def put(self, request, id):
+         article = self.get_object(id)
+         serializer = ArticleSerializer(article, data=request.data)
+         if serilizer.is_valid():
+             serializer.save()
+             return Response(serializer.data)
+         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+     def delete(self,request, id):
+         article = self.get_object(id)
+         article.delete()
+         return Response(status=status.HTTP_204_NO_CONTENT)
+
+URLS.PY APP:
+
+from django.urls import path
+from .views import article_list, article_detail, ArticleAPIView,ArticleDetails
+
+
+urlpatterns = [
+    #path('article/', article_list),
+     path('article/', ArticleAPIVIEW.as_view()),
+     #path('detail/<int:pk>/', article_detail),
+     path('detail/<int:id>/', ArticleDetails.as_view()),
+]
+
+run server:
+shows article api
+for this conent add and post the api.
+
+using a class article it can show api call.
+
+again adding class article details
+run server:
+update the serializer data and put the data.
+
+in postman go to body put in row and click json to get the json format.
+
+
+7.generic views and mixins:
